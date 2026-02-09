@@ -9,7 +9,7 @@ app.use(express.json());//converts i/p to json
 
 
 // DB connection
-mongoose.connect("mongodb+srv://rishabha:Rishabha21@react1.jawlskl.mongodb.net/")
+mongoose.connect("mongodb://localhost:27017/")
   .then(() => console.log("MongoDB Connected"))
   .catch(err => console.log(err));
 
